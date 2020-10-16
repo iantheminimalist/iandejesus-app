@@ -1,11 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import Main from './components/MainComponent';
+import { BrowserRouter } from 'react-router-dom';
+
+// styles
 import './css/App.scss';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ian De Jesus Portfolio</h1>
+      <BrowserRouter>
+      <Main />
+      </BrowserRouter>
+
     </div>
   );
 }
