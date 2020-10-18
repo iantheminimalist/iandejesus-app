@@ -20,7 +20,7 @@ export default function Main() {
                     <Route path="/projects" render={ () => <Projects /> } />
                     <Route path="/contact" render={ () => <ContactUs /> } />
                     <Route path="/about" render={ () => <AboutUs /> } />
-                    <Redirect to='/home' />
+                    
                 </Switch>
             </div>
         </Router>

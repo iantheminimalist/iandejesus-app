@@ -22,7 +22,9 @@ export default function Header() {
                 <Container>
                 <NavbarBrand className=" d-md-none header-title  rg-head" href="/">IAN DEJESUS</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
+
                 <Collapse isOpen={isOpen} navbar>
+                    
                     <div className=" d-md-flex d-block w-100 ">
                     <Nav navbar className="mx-auto w-auto justify-content-center align-items-md-center" >
                         <NavItem>
