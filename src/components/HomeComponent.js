@@ -27,7 +27,7 @@ function Home() {
             <Fade bottom cascade>
                 <Row className="py-5">
                     <Col xs={12} md={{size: 'auto', offset: 0}} className="mx-auto">
-                        <img src="./assets/img/ian_blkwht.JPG"></img>
+                        <img src="./assets/img/ian_blkwht.JPG" width="100" height="100" />
                         <h1>About Me.</h1>
                     </Col>
                     <Col xs={12} md={{size: 8, offset: 0}}>
