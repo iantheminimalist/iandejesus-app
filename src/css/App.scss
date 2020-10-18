@@ -47,10 +47,20 @@ $color-red:#78122C;
         flex-direction: column;
     }
 }
+.section{
+  width:100%;
+  margin: 10px 0 10px 0 ;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .section:nth-child(even){
     background-color: $color-bblack;
     color: $color-white;
     background-image: $honeyhomb;
+
+    -webkit-clip-path: polygon(0 0,100% 5vw,100% 100%,0 calc(100% - 5vw));
+    clip-path: polygon(0 0 , 100% 5vw ,100% 100% , 0 calc(100% - 5vw));
+    //clip-path: polygon(0 6rem , 100% 0 , 100% calc(100% - 6rem) , 0 100%);
 }
 
 .center-content{

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Row, Button,  } from 'reactstrap';
 import AboutUs from './AboutComponent';
+import Fade from 'react-reveal/Fade';
 
 
 function Home() {
@@ -8,27 +9,35 @@ function Home() {
     <div>
         <div className="full-content section">
             <div className="title-content">
+
                 <Container className="text-center">
-                    <h1>Hi this is my Portfolio.</h1>
-                    <h4>An inspiring Fullstack Web Developer.</h4>
+                <Fade bottom cascade>
+                    <div>
+                        <h1>Hi, I'm Ian </h1>
+                        <h4>An inspiring Fullstack Web Developer.</h4>
+                    </div>
+                </Fade>
                 </Container>
-            </div>
+                </div>
+
         </div>
 
-        <div className="section py-5">
+        <div className="section ">
             <Container>
+            <Fade bottom cascade>
                 <Row className="py-5">
                     <Col xs={12} md={{size: 'auto', offset: 0}} className="mx-auto">
+                        <img src="./assets/img/ian_blkwht.JPG"></img>
                         <h1>About Me.</h1>
                     </Col>
                     <Col xs={12} md={{size: 8, offset: 0}}>
-                        <h1>About Me.</h1>
                         <p>
-                            Praesent nam metus odio tincidunt faucibus porta lectus lacus pulvinar, torquent parturient lacinia class tempus luctus nisl vivamus nibh, nisi ultrices consequat magna maecenas vitae libero ante. Pellentesque at montes sociis consequat ornare molestie est sapien et, mauris magna facilisis arcu suspendisse lacinia eget pulvinar vulputate, curae vitae accumsan tristique placerat facilisi dui ridiculus.
+                        Exceptionally creative and reliable with an outstanding customer service record, superb work ethic, and an excellent team player. Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies.
                         </p>
                         <Button outline color="light" onClick={<AboutUs />}>More</Button>
                     </Col>
                 </Row>
+            </Fade>
             </Container> 
         </div>
 
