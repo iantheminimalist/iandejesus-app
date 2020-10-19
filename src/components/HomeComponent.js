@@ -3,7 +3,8 @@ import { Container, Col, Row, Button,  } from 'reactstrap';
 import AboutUs from './AboutComponent';
 import Fade from 'react-reveal/Fade';
 import { baseUrl } from './shared/baseURL';
-
+import { Link } from 'react-router-dom';
+import Footer from './FooterComponent';
 
 function Home() {
 const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
@@ -41,13 +42,16 @@ const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
                         <p>
                         Exceptionally creative and reliable with an outstanding customer service record, superb work ethic, and an excellent team player. Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies.
                         </p>
-                        <Button outline color="light" onClick={<AboutUs />}>More</Button>
+                        <Link to="/about"><Button outline color="light">More</Button></Link>
                     </Col>
                 </Row>
             </Fade>
             </Container> 
-        </div>
 
+        </div>
+    <div className="section">
+    <Footer />
+    </div>
     </div>  
     );
 }
