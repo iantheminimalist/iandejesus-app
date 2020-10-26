@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/iandejesus-app/precache-manifest.5a06dd4bb20a37a8f4751057495dbdc6.js"
+  "/iandejesus-app/precache-manifest.245eac637040db8e1798f9ee06f6d732.js"
 );
 
 self.addEventListener('message', (event) => {
