@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import { baseUrl } from './shared/baseURL';
 import { Link } from 'react-router-dom';
 import Footer from './FooterComponent';
-import Skills from './SkillsComponent';
+// import Skills from './SkillsComponent';
 
 function Home() {
 const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
@@ -21,8 +21,15 @@ const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
                         <h1>Hi, I'm Ian </h1>
                         <h4>An inspiring Fullstack Web Developer.</h4>
                         <div>
-                            <Button color="link" size="sm" ><Icon.GitHub size={24}  /></Button>
+                            
+                            <a href="https://iantheminimalist.github.io/iandejesus-app/">
+                            <Button color="link" size="sm" ><Icon.GitHub size={24}  />
+                            </Button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/iandejesus89/">
                             <Button color="link" size="sm"><Icon.Linkedin size={24} /></Button> 
+                            </a>
+
                             <Button color="link" size="sm"><Icon.Mail size={24}     /></Button> 
                         </div>
                     </div>

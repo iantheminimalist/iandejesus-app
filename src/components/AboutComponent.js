@@ -15,7 +15,7 @@ function Experience(){
     return(
     <React.Fragment>
         <Fade bottom cascade>
-            <Container className="text-center">
+            <Container className="">
                 <h1>My Work Experiences</h1>
             </Container>
         </Fade>
