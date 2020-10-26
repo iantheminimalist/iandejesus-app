@@ -9,6 +9,7 @@ import ContactUs from './ContactComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Projects from './ProjectsComponent';
+//import Footer from './FooterComponent';
 
 export default function Main() {
     return (
@@ -22,6 +23,7 @@ export default function Main() {
                     <Route path="/about" render={ () => <AboutUs /> } />
                     <Redirect to='/home' />
                 </Switch>
+
             </div>
         </Router>
     )
