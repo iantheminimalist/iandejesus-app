@@ -5,12 +5,12 @@ import * as Icon from 'react-feather';
 function Footer() {
     return (
         <div className="">
-        <Container>
+        <Container className="text-center">
         <Row>
             <Col>
-            <Button color="link" size="sm" ><Icon.GitHub size={20}/></Button>
-            <Button color="link" size="sm"><Icon.Linkedin size={20}/></Button> 
-            <Button color="link" size="sm"><Icon.Mail size={20}/></Button> 
+                <Button color="link" size="sm" ><Icon.GitHub size={24}/></Button>
+                <Button color="link" size="sm"><Icon.Linkedin size={24}/></Button> 
+                <Button color="link" size="sm"><Icon.Mail size={24}/></Button> 
             </Col>
 
         </Row>

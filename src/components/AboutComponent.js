@@ -14,17 +14,20 @@ import Fade from 'react-reveal/Fade';
 function Experience(){
     return(
     <React.Fragment>
-    <Container className="text-center">
-        <h1>My Work Experiences</h1>
-    </Container>
+        <Fade bottom cascade>
+            <Container className="text-center">
+                <h1>My Work Experiences</h1>
+            </Container>
+        </Fade>
+
     <Container>
     <Fade bottom cascade>
 
     <CardDeck>
-        <Card className="neomorph rounded my-3">
+        <Card className="neomorph rounded my-md-3 my-4">
         <CardBody>
         <Row>
-            <Col md={1} xs={12} className="text-center my-md-0 my-3">
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
                 <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
@@ -43,10 +46,10 @@ function Experience(){
     </CardDeck>
 
     <CardDeck>
-        <Card className="neomorph rounded my-3">
+        <Card className="neomorph rounded my-md-3 my-4">
         <CardBody>
             <Row>
-            <Col md={1} xs={12} className="text-center my-md-0 my-3">
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
             <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
@@ -64,10 +67,10 @@ function Experience(){
     </CardDeck>
 
     <CardDeck>
-        <Card className="neomorph rounded my-3">
+        <Card className="neomorph rounded my-md-3 my-4">
         <CardBody>
             <Row>
-            <Col md={1} xs={12} className="text-center my-md-0 my-3">
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
             <Icon.Tag size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
@@ -93,9 +96,37 @@ function Experience(){
 function Education(){
     return(
         <React.Fragment>
+        <Fade bottom cascade>
         <Container>
-            <h1>Insert Education Here</h1>
+            <h1>Education</h1>
+        
+        <CardDeck>
+            <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+                <Row>
+                <Col md={1} xs={12} className="text-center my-md-0 my-4">
+                    <Icon.Award size={40} className="" /> 
+                </Col>
+                <Col md={11} xs={12}>
+                <CardTitle><h5> Bachelor of Science in Information Systems  | <span className="font-weight-light">2009 - 2014</span></h5></CardTitle>
+                <CardSubtitle><h5 className="font-weight-light">De La Salle University</h5></CardSubtitle>
+
+            <CardText>
+                Coursework:
+                <dd>Data Structures and Algorithms.</dd>
+                <dd>Managing Software Projects and Methods of Software Development.</dd>
+                <dd>Web Applications Development and Design.</dd>
+                <dd>Systems Analysis and Design.</dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+        </CardDeck>
+        
         </Container>
+        </Fade>
+        
         </React.Fragment>
     );
 }
@@ -109,7 +140,7 @@ function AboutUs() {
         <div className="section">
             <Education />
         </div>
-        <div>
+        <div className="section">
             <Footer />
         </div>
         </div>

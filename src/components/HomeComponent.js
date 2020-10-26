@@ -21,11 +21,11 @@ const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
                         <h1>Hi, I'm Ian </h1>
                         <h4>An inspiring Fullstack Web Developer.</h4>
                         <div>
-                            <Button color="link" size="sm" ><Icon.GitHub size={20}/></Button>
-                            <Button color="link" size="sm"><Icon.Linkedin size={20}/></Button> 
-                            <Button color="link" size="sm"><Icon.Mail size={20}/></Button> 
+                            <Button color="link" size="sm" ><Icon.GitHub size={24}  /></Button>
+                            <Button color="link" size="sm"><Icon.Linkedin size={24} /></Button> 
+                            <Button color="link" size="sm"><Icon.Mail size={24}     /></Button> 
                         </div>
-                        </div>
+                    </div>
                 </Fade>
                 </Container>
                 </div>
@@ -58,10 +58,13 @@ const profileImg = `iandejesus-app/assets/img/ian-profile.jpg`;
             </Fade>
             </Container> 
 
-        </div>
+    </div>
+    
+    {/*
     <div className="section">
         <Skills />
     </div>
+    */}
 
     <div className="section">
     <Footer />

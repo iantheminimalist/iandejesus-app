@@ -11,6 +11,7 @@ $color-bblack: #162e2e;
 $color-dred:#362e2e;
 $color-white:#ffffff;
 $color-bgrey:#362e2e;
+$color-lgrey:#9d9898;
 $color-stryoygurt:#FFEFD9;
 $color-red:#78122C; 
 $color-honeycomb:#DFDBE5;
@@ -66,7 +67,13 @@ $color-honeycomb:#DFDBE5;
       :hover{
         color: #6c757d;
       }
-    }  
+    }
+    .neomorph{
+      color: $color-black;
+      box-shadow: 
+      12px 12px 16px 0 rgba(0, 0, 0, 0.15);
+
+     }  
 }
 
 .center-content{
@@ -88,6 +95,7 @@ $color-honeycomb:#DFDBE5;
  background-size: contain;
  display: block;
 }
+
 // making landscape images square and cirular
 .circular--landscape {
   display: inline-block;
@@ -95,7 +103,8 @@ $color-honeycomb:#DFDBE5;
   height: 250px;
   overflow: hidden;
   border-radius: 50%;
- span, img{
+    
+  span, img{
     width: auto;
     height: 100%;
     margin-left: -50px;
@@ -127,4 +136,13 @@ $color-honeycomb:#DFDBE5;
     12px 12px 16px 0 rgba(0, 0, 0, 0.15),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
 
+ }
+
+
+ .btn-link{
+   color: $color-black !important;
+   :hover{
+    color: $color-lgrey;
+
+   }
  }
