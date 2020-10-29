@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactUs from './ContactUs'
 
-export default function ContactUs() {
+export default function Contact() {
     return (
         <div>
-            <h1>Under Construction</h1>
+            <ContactUs />
         </div>
     )
 }
