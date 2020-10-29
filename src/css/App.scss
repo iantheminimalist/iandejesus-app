@@ -138,11 +138,14 @@ $color-honeycomb:#DFDBE5;
 
  }
 
-
  .btn-link{
    color: $color-black !important;
    :hover{
     color: $color-lgrey;
 
    }
+ }
+ .bottom{
+   position: inherit;
+   padding-top: 10em;
  }

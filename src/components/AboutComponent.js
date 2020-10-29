@@ -6,7 +6,7 @@ import { Card,
         CardBody,
         CardText,CardSubtitle,
         Row,
-        Col  } from 'reactstrap';
+        Col } from 'reactstrap';
 import * as Icon from 'react-feather';
 import Footer from './FooterComponent';
 import Fade from 'react-reveal/Fade';
@@ -95,22 +95,64 @@ function Experience(){
 
 function Education(){
     return(
-        <React.Fragment>
+    <React.Fragment>
         <Fade bottom cascade>
-        <Container>
-            <h1>Education</h1>
-        
-        <CardDeck>
-            <Card className="neomorph rounded my-md-3 my-4">
-            <CardBody>
-                <Row>
-                <Col md={1} xs={12} className="text-center my-md-0 my-4">
-                    <Icon.Award size={40} className="" /> 
-                </Col>
-                <Col md={11} xs={12}>
-                <CardTitle><h5> Bachelor of Science in Information Systems  | <span className="font-weight-light">2009 - 2014</span></h5></CardTitle>
-                <CardSubtitle><h5 className="font-weight-light">De La Salle University</h5></CardSubtitle>
+            <Container><h1>Education</h1></Container>
+        </Fade>
 
+
+        <Container>
+        <Fade bottom cascade>
+        <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
+                <Icon.Award size={40} className="" /> 
+            </Col>
+            <Col md={11} xs={12}>
+            <CardTitle><h5>Full Stack Web and Mobile Development | <span className="font-weight-light">May - July 2020</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">Nucamp Coding Bootcamp</h5></CardSubtitle>
+            <CardText>
+                Coursework:
+                <dd>Utilizing server-side technologies with Node, MongoDB, REST API, and Express: Express Server Framework and NPM Packages.</dd>
+                <dd>Understanding User Authentication: Basic Authentication, Passport Authentication, and Token-based Authentication.</dd>
+                <dd>Introduction to Cross-Origin Resource Sharing (CORS) and third-party party Authentication.</dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+        </CardDeck> 
+
+        <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4"><Icon.Award size={40} className="" /> </Col>
+            <Col md={11} xs={12}>
+            <CardTitle><h5>Front End Web and Mobile Development | <span className="font-weight-light">Jan - May 2020</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">Nucamp Coding Bootcamp</h5></CardSubtitle>
+            <CardText>
+                Coursework:
+                <dd>Frontend Web UI Frameworks and Tools: BootStrap 4, JQuery </dd>
+                <dd>Frontend Web development: React, React-Redux, NodeJS</dd>
+                <dd>Multiplatform Development for Web and Mobile Applications: React Native, Expo CLI</dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+        </CardDeck> 
+
+        <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4"><Icon.Award size={40} className="" /></Col>
+            <Col md={11} xs={12}>
+            <CardTitle><h5> Bachelor of Science in Information Systems  | <span className="font-weight-light">2009 - 2014</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">De La Salle University</h5></CardSubtitle>
             <CardText>
                 Coursework:
                 <dd>Data Structures and Algorithms.</dd>
@@ -123,11 +165,12 @@ function Education(){
             </CardBody>
         </Card>
         </CardDeck>
-        
-        </Container>
         </Fade>
+    </Container>
+
         
-        </React.Fragment>
+
+    </React.Fragment>
     );
 }
 function AboutUs() {

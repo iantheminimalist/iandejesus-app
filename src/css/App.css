@@ -96,3 +96,7 @@
   color: #191919 !important; }
   .btn-link :hover {
     color: #9d9898; }
+
+.bottom {
+  position: inherit;
+  padding-top: 10em; }
