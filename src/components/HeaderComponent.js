@@ -38,7 +38,7 @@ export default function Header() {
                             <NavLink className="nav-link navbar-brand mx-2 d-none d-md-inline header-title rg-head" to="/home">IAN DEJESUS</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/about">About</NavLink>
+                            <NavLink className="nav-link" to="/about">Experiences</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="nav-link" to="/contact">Contact</NavLink>

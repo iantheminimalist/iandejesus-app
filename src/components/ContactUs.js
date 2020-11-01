@@ -1,4 +1,10 @@
 import React from 'react'
+import {    Form,
+            FormGroup,
+            Label,
+            Input,
+            Container
+            } from 'reactstrap';
 import emailjs from 'emailjs-com'; 
 
 export default function ContactUs() {
@@ -18,15 +24,33 @@ export default function ContactUs() {
     }
   
     return (
-      <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+        <React.Fragment>
+        <Container>
+        <h1>Leave a Message</h1>
+            <Form onSubmit={sendEmail}>
+                <FormGroup>
+                    <Label for="user_name">Name</Label>
+                    <Input type="text" name="user_name" placeholder=""/>
+                </FormGroup>
+
+                <FormGroup>
+                    <Label for="email">Email</Label>
+                    <Input type="email" name="user_email" placeholder=""/>
+                </FormGroup>
+
+                <FormGroup>
+                    <Label for="message">Message</Label>
+                    <Input type="textarea" name="message"/>
+                </FormGroup>
+
+                <Input type="submit" value="Send" placeholder=""/>
+
+            </Form>
+        </Container>
+        </React.Fragment>
+
+
+
+
     );
   }

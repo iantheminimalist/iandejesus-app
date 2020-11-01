@@ -18,10 +18,7 @@ function Footer() {
             <p className="">Designed By Ian De Jesus</p>
             </Col>
         </Row>
-        <div>
-  
-        </div>
-            </Container>
+    </Container>
         </div>
     );
 }
