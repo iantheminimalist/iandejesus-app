@@ -4,13 +4,18 @@ import { Card,
     CardTitle, 
     Container, 
     CardBody,
-    CardText,CardSubtitle,
+    CardText,
+    CardSubtitle,
     Row,
     Col, 
-    Badge, Button } from 'reactstrap';
+    Badge, 
+    Button } from 'reactstrap';
 import * as Icon from 'react-feather';
 import Fade from 'react-reveal/Fade';
+
+// COMPONENTS
 import Footer from './FooterComponent';
+import UnfinishedProjects from './UnfinishedProjects';
 
 
 
@@ -39,9 +44,7 @@ function Projects() {
                         <p>
                             A Simple Weather App with a minimalist aesthetic for tablets and mobile dashboards. The app is built with React and uses Weatherbit's API to get weather data.
                         </p>
-
-                <Button color="link" href="https://iantheminimalist.github.io/iandejesus-app/" size="sm" ><Icon.GitHub size={24} /></Button>
-
+                        <Button outline color="secondary" href="https://github.com/iantheminimalist/simpleweather-app"><Icon.GitHub size={18} /> Github</Button>
                         </CardText>
                         <hr />
                         <CardText>
@@ -66,10 +69,9 @@ function Projects() {
             </div>
             
             <div className="section">
-                <h1>Under Construction</h1>
-                <Card>
-
-                </Card>
+              <Container>
+                <UnfinishedProjects />
+              </Container>
             </div>
             <div className="section">
                 <Footer />

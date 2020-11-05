@@ -53,14 +53,18 @@ $color-honeycomb:#DFDBE5;
   margin: 10px 0 10px 0 ;
   padding-top: 6rem;
   padding-bottom: 6rem;
+
+  
 }
 .section:nth-child(even){
+  padding: 10em 0 10em 0;
     background-color: $color-bblack;
     color: $color-white;
     background-image: $honeyhomb;
     -webkit-clip-path: polygon(0 0,100% 5vw,100% 100%,0 calc(100% - 5vw));
     clip-path: polygon(0 0 , 100% 5vw ,100% 100% , 0 calc(100% - 5vw));
     //clip-path: polygon(0 6rem , 100% 0 , 100% calc(100% - 6rem) , 0 100%);
+
 
     .bg-color-dark .nav-link:nth-child(even){
       color: $color-white !important;
