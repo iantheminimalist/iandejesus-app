@@ -22,6 +22,28 @@ function Experience(){
 
     <Container>
     <Fade bottom cascade>
+    
+    <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+        <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
+            <Icon.Tag size={40} className="" /> 
+            </Col>
+            <Col md={11} xs={12}>
+            <CardTitle><h5> Best Buy | <span className="font-weight-light">Oct 2014 - Apr 2018</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">SmartHome and Home Netorking Sale Consultant</h5></CardSubtitle>
+
+            <CardText>
+                <dd>Assisting customers by providing technical support and product solutions an providing information on up-to-date products.</dd>
+                <dd>Providing hands on and remote support to customers with software and hardware troubleshooting support and installations.</dd>
+                <dd>Helping customer make selections by building customer confidence and generating reports that offers product information, opinions and recommendations.</dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+    </CardDeck>
 
     <CardDeck>
         <Card className="neomorph rounded my-md-3 my-4">
@@ -59,28 +81,6 @@ function Experience(){
             <CardText>
                 <dd>Built the Company’s internal web application for Monitoring Internet Plans and Accounting information as well as displayed Data analytic reports from the Company’s social media metadata.</dd>
                 <dd>Monitored much of the Company’s Accounting Information Systems for Internet and Cable Plans.</dd>
-            </CardText>
-            </Col>
-            </Row>
-            </CardBody>
-        </Card>
-    </CardDeck>
-
-    <CardDeck>
-        <Card className="neomorph rounded my-md-3 my-4">
-        <CardBody>
-            <Row>
-            <Col md={1} xs={12} className="text-center my-md-0 my-4">
-            <Icon.Tag size={40} className="" /> 
-            </Col>
-            <Col md={11} xs={12}>
-            <CardTitle><h5> Best Buy | <span className="font-weight-light">Oct 2014 - Apr 2018</span></h5></CardTitle>
-            <CardSubtitle><h5 className="font-weight-light">SmartHome and Home Netorking Sale Consultant</h5></CardSubtitle>
-
-            <CardText>
-                <dd>Assisting customers by providing technical support and product solutions an providing information on up-to-date products.</dd>
-                <dd>Providing hands on and remote support to customers with software and hardware troubleshooting support and installations.</dd>
-                <dd>Helping customer make selections by building customer confidence and generating reports that offers product information, opinions and recommendations.</dd>
             </CardText>
             </Col>
             </Row>
