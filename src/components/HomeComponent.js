@@ -10,7 +10,7 @@ import Footer from './FooterComponent';
 
 
 function Home() {
-const profileImg = `../iandejesus-app/assets/img/ian-profile.JPG`;
+const profileImg = `https://raw.githubusercontent.com/iantheminimalist/iandejesus-app/master/public/assets/img/ian-profile.JPG`;
 
     return (
     <div>
