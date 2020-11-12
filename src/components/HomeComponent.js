@@ -10,7 +10,7 @@ import Footer from './FooterComponent';
 
 
 function Home() {
-const profileImg = `iandejesus-app/assets/img/ian-profile.JPG`;
+const profileImg = `../iandejesus-app/assets/img/ian-profile.JPG`;
 
     return (
     <div>
@@ -42,7 +42,7 @@ const profileImg = `iandejesus-app/assets/img/ian-profile.JPG`;
                     <Col sm={12} md={{size: 4, offset: 1}} className="mx-auto text-center">
                     <Container>
                         <div className="circular--landscape">
-                            <img src={baseUrl + profileImg} alt="ian-profile" className=""></img>
+                            <img src={profileImg} alt="ian-profile" className=""></img>
                         </div>
                     </Container>
                     </Col>
