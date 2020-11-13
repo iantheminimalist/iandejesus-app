@@ -10,7 +10,7 @@ import Footer from './FooterComponent';
 
 
 function Home() {
-const profileImg = `/assets/ian.JPG`;
+const profileImg = `./assets/ian.JPG`;
 
     return (
     <div>
