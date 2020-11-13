@@ -3,8 +3,6 @@ import * as Icon from 'react-feather';
 import { Container, Col, Row, Button,  } from 'reactstrap';
 
 import Fade from 'react-reveal/Fade';
-
-import { baseUrl } from './shared/baseURL';
 import { Link } from 'react-router-dom';
 import Footer from './FooterComponent';
 
