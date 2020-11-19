@@ -8,7 +8,7 @@ function Footer() {
         <Container className="text-center">
         <Row>
             <Col>
-            <Button color="link" size="sm" href="https://iantheminimalist.github.io/iandejesus-app/"><Icon.GitHub size={24} /></Button>
+            <Button color="link" size="sm" href="https://github.com/iantheminimalist"><Icon.GitHub size={24} /></Button>
             <Button color="link" size="sm" href="https://www.linkedin.com/in/iandejesus89/"><Icon.Linkedin size={24} /></Button> 
             <Button color="link" size="sm"><Icon.Mail size={24} /></Button> 
             </Col>
