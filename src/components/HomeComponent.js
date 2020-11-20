@@ -22,7 +22,7 @@ const profileImg = `./assets/ian.JPG`;
                         <div>
                             <Button color="link" size="sm" href="https://github.com/iantheminimalist"><Icon.GitHub size={24} /></Button>
                             <Button color="link" size="sm" href="https://www.linkedin.com/in/iandejesus89/"><Icon.Linkedin size={24} /></Button> 
-                            <Button color="link" size="sm"><Icon.Mail size={24} /></Button> 
+                            <Link to="/contact"><Button color="link" size="sm"><Icon.Mail size={24} /></Button> </Link>
                         </div>
                     </div>
                 </Fade>
@@ -51,7 +51,8 @@ const profileImg = `./assets/ian.JPG`;
                        <div className="sm-py-2">
                        <h1>About Me</h1>
                         <p>Exceptionally creative and reliable with an outstanding customer service record, superb work ethic, and an excellent team player. Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies.</p>
-                        <Link to="/about"><Button outline color="light">More</Button></Link>
+                        <Link to="/about"><Button outline color="light" className="mr-3">More</Button></Link>
+                        <Button outline color="light"  href="https://onedrive.live.com/download?cid=4A59554531E310ED&resid=4A59554531E310ED%21163440&authkey=AABuhWWJOtjQDic&em=2"><Icon.FileText size={20} className="align-items-center"/>   MS Doc</Button>
                        </div>
                     </Fade>
                     </Container>

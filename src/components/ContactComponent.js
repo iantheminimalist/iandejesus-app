@@ -1,5 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import {  Container, 
+          Row, 
+          Col,
+          Button 
+        } from 'reactstrap';
+
 import ContactUs from './ContactUs';
 import Footer from './FooterComponent';
 import * as Icon from 'react-feather';
@@ -20,10 +25,9 @@ function ContactInfo() {
             <h3 className="mt-4">Socials</h3>
             <Row className="my-2">
                 <Col>
-                <Icon.Twitter className="mr-3" size={20} />
-                <Icon.Linkedin className="mr-3" size={20} />
-                <Icon.Facebook className="mr-3" size={20} />
-                <Icon.GitHub className="mr-3" size={20} />
+                    <Button color="link" size="sm" href="https://github.com/iantheminimalist"><Icon.GitHub size={24} /></Button>
+                    <Button color="link" size="sm" href="https://www.linkedin.com/in/iandejesus89/"><Icon.Linkedin size={24} /></Button> 
+                    <Button color="link" size="sm" href="https://twitter.com/iantheminimal"><Icon.Twitter className="mr-3" size={20} /></Button>
                 </Col>
             </Row>
             </Container>

@@ -35,7 +35,7 @@ function Projects() {
             <CardBody>
                 <Row>
                     <Col md={1} xs={12} className="text-center my-md-0 my-4">
-                        <Icon.Briefcase size={40} className="" /> 
+                        <Icon.CloudDrizzle size={40} className="" /> 
                     </Col>
                     <Col md={11} xs={12}>
                         <CardTitle><h5> Simple Weather App</h5></CardTitle>
