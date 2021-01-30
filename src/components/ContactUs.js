@@ -30,17 +30,17 @@ export default function ContactUs() {
             <Form onSubmit={sendEmail}>
                 <FormGroup>
                     <Label for="user_name">Name</Label>
-                    <Input type="text" name="user_name" placeholder=""/>
+                    <Input type="text" name="user_name" placeholder="" required/>
                 </FormGroup>
 
                 <FormGroup>
                     <Label for="email">Email</Label>
-                    <Input type="email" name="user_email" placeholder=""/>
+                    <Input type="email" name="user_email" placeholder="" required/>
                 </FormGroup>
 
                 <FormGroup>
                     <Label for="message">Message</Label>
-                    <Input type="textarea" name="message"/>
+                    <Input type="textarea" name="message" required/>
                 </FormGroup>
 
                 <Input type="submit" value="Send" placeholder=""/>
