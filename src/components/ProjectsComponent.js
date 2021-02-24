@@ -66,6 +66,44 @@ function Projects() {
             </Fade>
             </Container>
 
+            <Container>
+            <Fade bottom cascade>
+            <CardDeck >
+            <Card className="neomorph rounded my-md-3 my-4">
+                    <CardBody>
+                <Row>
+                    <Col md={1} xs={12} className="text-center my-md-0 my-4">
+                        <Icon.Mail size={40} className="" /> 
+                    </Col>
+                    <Col md={11} xs={12}>
+                        <CardTitle><h5>Project Travel | Responsive Email HTML Template </h5></CardTitle>
+                        <CardSubtitle><h5 className="font-weight-light">Description:</h5></CardSubtitle>
+                        <CardText>
+                        <p>
+                            Simple responsive email HTML template for a hiker's travel company. Project Travel is a Pseudo/fictional Company and is used as a concept for developing email templates. The Project was built using the MJML Framework to make html emails responsive and adaptable to different email clients.                        
+                        </p>
+                        <Button outline color="secondary" className="mx-2" href="https://github.com/iantheminimalist/project-travel"  target="_blank" rel="noopener noreferrer"><Icon.GitHub size={18} /> Github</Button>
+                        <Button outline color="secondary" className="mx-2" href="https://iantheminimalist.github.io/project-travel/"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
+
+                        </CardText>
+                        <hr />
+                        <CardText>
+                            <p>Technologies Used</p>
+                            <p>
+                                <Badge color="dark" pill className="mr-1">MJML</Badge>
+                                <Badge color="dark" pill className="mr-1">HTML</Badge>
+                                <Badge color="dark" pill className="mr-1">CSS</Badge>                                
+
+                            </p>    
+                        </CardText>
+                    </Col>
+                </Row>
+            </CardBody>
+                    </Card>
+                </CardDeck>
+            </Fade>
+                
+            </Container>
             </div>
             
             <div className="section">
