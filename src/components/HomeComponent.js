@@ -52,7 +52,7 @@ const profileImg = `./assets/ian.JPG`;
                        <h1>About Me</h1>
                         <p>Exceptionally creative and reliable with an outstanding customer service record, superb work ethic, and an excellent team player. Highly Acknowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction. Proven ability to adapt, construct, and optimize web functionality that improve data retrieval and workflow efficiencies.</p>
                         <Link to="/about"><Button outline color="light" className="mr-3">More</Button></Link>
-                        <Button outline color="light"  href="https://onedrive.live.com/embed?cid=4A59554531E310ED&resid=4A59554531E310ED%21163717&authkey=AC8ilCrhRFJ84_w&em=2"><Icon.FileText size={20} className="align-items-center"/>   MS Doc</Button>
+                        <Button outline color="light"  href="https://onedrive.live.com/download?cid=4A59554531E310ED&resid=4A59554531E310ED%21163717&authkey=AC8ilCrhRFJ84_w&em=2"><Icon.FileText size={20} className="align-items-center"/>   MS Doc</Button>
                        </div>
                     </Fade>
                     </Container>
