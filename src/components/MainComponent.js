@@ -1,17 +1,37 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Switch,
     Route,
-    Redirect } from "react-router-dom";
+    Redirect,
+    useLocation } from "react-router-dom";
 import AboutUs from './AboutComponent';
 import Contact from './ContactComponent';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
 import Projects from './ProjectsComponent';
 //import Footer from './FooterComponent';
+import ReactGA from 'react-ga';
+
+
+function usePageViews(){
+    let location = useLocation();
+    console.log(process.env.REACT_APP_GAT_ID)
+    useEffect(() => {
+        if(!window.GA_INITIALIZED){
+            ReactGA.initialize(process.env.REACT_APP_GAT_ID)
+            window.GA_INITIALIZED = true;
+        }
+        ReactGA.set({page: location.pathname});
+        ReactGA.pageview(location.pathname);
+      }, [location])
+
+}
+
+
 
 export default function Main() {
+console.log(usePageViews());
     return (
         <Router>
             <div>
