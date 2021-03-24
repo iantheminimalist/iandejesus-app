@@ -16,7 +16,6 @@ import ReactGA from 'react-ga';
 
 function usePageViews(){
     let location = useLocation();
-    console.log(process.env.REACT_APP_GAT_ID)
     useEffect(() => {
         if(!window.GA_INITIALIZED){
             ReactGA.initialize(process.env.REACT_APP_GAT_ID)
@@ -31,7 +30,7 @@ function usePageViews(){
 
 
 export default function Main() {
-console.log(usePageViews());
+usePageViews();
     return (
         <Router>
             <div>
