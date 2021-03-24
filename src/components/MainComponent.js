@@ -21,10 +21,11 @@ function usePageViews(){
             ReactGA.initialize(process.env.REACT_APP_GAT_ID)
             window.GA_INITIALIZED = true;
         }
-        ReactGA.set({page: location.hash});
-        ReactGA.pageview(location.hash);
-        console.log(location.hash)
-      }, [location.hash])
+        ReactGA.set({page: window.location.hash});
+        ReactGA.pageview(window.location);
+        console.log(location.hash);
+        console.log(window.location);
+      }, [location])
 
 }
 
