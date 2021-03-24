@@ -21,8 +21,9 @@ function usePageViews(){
             ReactGA.initialize(process.env.REACT_APP_GAT_ID)
             window.GA_INITIALIZED = true;
         }
-        ReactGA.set({page: location.pathname});
-        ReactGA.pageview(location.pathname);
+        ReactGA.set({page: location.hash});
+        ReactGA.pageview(location.hash);
+
       }, [location])
 
 }
@@ -37,7 +38,7 @@ usePageViews();
                 <Header />
                 <Switch>
                     <Route exact path="/home" component={Home} />
-                    <Route exact path="/projects" render={ () => <Projects /> } />
+                    <Route exact path="/projects" component={Projects} />
                     <Route path="/contact" render={ () => <Contact /> } />
                     <Route path="/about" render={ () => <AboutUs /> } />
                     <Redirect exact to='/home' />
