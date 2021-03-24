@@ -36,11 +36,11 @@ usePageViews();
             <div>
                 <Header />
                 <Switch>
-                    <Route path="/home" render={ () => <Home /> } />
-                    <Route path="/projects" render={ () => <Projects /> } />
+                    <Route exact path="/home" render={ () => <Home /> } />
+                    <Route exact path="/projects" render={ () => <Projects /> } />
                     <Route path="/contact" render={ () => <Contact /> } />
                     <Route path="/about" render={ () => <AboutUs /> } />
-                    <Redirect to='/home' />
+                    <Redirect exact to='/home' />
                 </Switch>
 
             </div>
