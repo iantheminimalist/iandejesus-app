@@ -36,7 +36,7 @@ usePageViews();
             <div>
                 <Header />
                 <Switch>
-                    <Route exact path="/home" render={ () => <Home /> } />
+                    <Route exact path="/home" component={Home} />
                     <Route exact path="/projects" render={ () => <Projects /> } />
                     <Route path="/contact" render={ () => <Contact /> } />
                     <Route path="/about" render={ () => <AboutUs /> } />
