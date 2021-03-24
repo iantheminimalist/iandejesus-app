@@ -24,7 +24,7 @@ function usePageViews(){
         ReactGA.set({page: location.hash});
         ReactGA.pageview(location.hash);
         console.log(location.hash)
-      }, [location])
+      }, [location.hash])
 
 }
 
