@@ -22,7 +22,32 @@ function Experience(){
 
     <Container>
     <Fade bottom cascade>
-    
+    <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+        <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
+            <Icon.Briefcase size={40} className="" /> 
+            </Col>
+            <Col md={11} xs={12}>
+            <CardTitle><h5> GTM IT | <span className="font-weight-light">Aug 2021 - Apr 2022</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">IT Specialist Tier 3/ Automations Specialist</h5></CardSubtitle>
+
+            <CardText>
+                <dd>
+                Mostly responsible for designing, developing, and implementing automated systems using third-party software like Integromat and Zapier to improve efficiency and eliminate manual processes.                  
+                </dd>
+                <dd>
+                Responsible for programming and testing automation systems, as well as troubleshooting and repairing any issues that may arise.            
+                </dd>
+                <dd>
+                By automating many of the company's workflow processes and using automation to enhance customer interaction, I can improve the efficiency of my company's workflow and improve the customer experience.                </dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+    </CardDeck>
     <CardDeck>
         <Card className="neomorph rounded my-md-3 my-4">
         <CardBody>
