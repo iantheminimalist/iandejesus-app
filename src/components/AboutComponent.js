@@ -30,6 +30,36 @@ function Experience(){
             <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
+            <CardTitle><h5> GTM IT | <span className="font-weight-light">Apr 2022 - Present</span></h5></CardTitle>
+            <CardSubtitle><h5 className="font-weight-light">Software Developer</h5></CardSubtitle>
+
+            <CardText>
+                <dd>
+                Implementing web design and creating development principles to build stable web application software that assists veterans with their disabilities.                
+                </dd>
+                <dd>
+                Collaborating closely with the team to support web application projects during all phases of delivery.
+                </dd>
+                <dd>
+                Monitoring and troubleshooting website performance and remedying front-end-related issues.                 
+                </dd>
+                <dd>
+                Maintaining an organized workflow using project management tools such as Monday and GitHub.                 
+                </dd>
+            </CardText>
+            </Col>
+            </Row>
+            </CardBody>
+        </Card>
+    </CardDeck>
+    <CardDeck>
+        <Card className="neomorph rounded my-md-3 my-4">
+        <CardBody>
+            <Row>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4">
+            <Icon.Briefcase size={40} className="" /> 
+            </Col>
+            <Col md={11} xs={12}>
             <CardTitle><h5> GTM IT | <span className="font-weight-light">Aug 2021 - Apr 2022</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">IT Specialist Tier 3/ Automations Specialist</h5></CardSubtitle>
 
@@ -41,13 +71,15 @@ function Experience(){
                 Responsible for programming and testing automation systems, as well as troubleshooting and repairing any issues that may arise.            
                 </dd>
                 <dd>
-                By automating many of the company's workflow processes and using automation to enhance customer interaction, I can improve the efficiency of my company's workflow and improve the customer experience.                </dd>
+                By automating many of the company's workflow processes and using automation to enhance customer interaction, I can improve the efficiency of my company's workflow and improve the customer experience.                
+                </dd>
             </CardText>
             </Col>
             </Row>
             </CardBody>
         </Card>
     </CardDeck>
+    
     <CardDeck>
         <Card className="neomorph rounded my-md-3 my-4">
         <CardBody>

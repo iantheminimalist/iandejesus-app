@@ -40,9 +40,9 @@ function UnfinishedProjects() {
               <CardDeck>
               <Card className="neomorph rounded my-md-3 my-4">
                 <CardBody>
-                  <CardTitle>Quote Generator</CardTitle>
+                  <CardTitle>Quote Generator Repo</CardTitle>
                   <CardSubtitle>Description:</CardSubtitle><hr />
-                  <CardText>A fun Quote Random Generator with a </CardText>
+                  <CardText>A simple Quote Generator that lets users genterate a random quote as well submit a quote for other users to grab.</CardText>
                   <hr />
                   <CardText>                    
                   <p>Technologies Used:</p>
@@ -50,6 +50,25 @@ function UnfinishedProjects() {
                         <Badge color="dark" pill className="mr-1">React</Badge>
                         <Badge color="dark" pill className="mr-1">SCSS</Badge>
                         <Badge color="dark" pill className="mr-1">Github API</Badge>                                
+                        <Badge color="dark" pill className="mr-1">BootStrap</Badge>
+                        <Badge color="dark" pill className="mr-1">Feather Icons</Badge>
+                      </p> </CardText>
+                </CardBody>
+              </Card>
+              </CardDeck>
+
+              <CardDeck>
+              <Card className="neomorph rounded my-md-3 my-4">
+                <CardBody>
+                  <CardTitle>2023 Veteran's Disability Compensation Calculator</CardTitle>
+                  <CardSubtitle>Description:</CardSubtitle><hr />
+                  <CardText>This calculator is based on the VA compensation benefits rate tables. The calculator finds a Serveperson's monthly payment amount on their disability rating and details about their dependent family members. </CardText>
+                  <hr />
+                  <CardText>                    
+                  <p>Technologies Used:</p>
+                      <p>
+                        <Badge color="dark" pill className="mr-1">React</Badge>
+                        <Badge color="dark" pill className="mr-1">Tailwind CSS</Badge>                               
                         <Badge color="dark" pill className="mr-1">BootStrap</Badge>
                         <Badge color="dark" pill className="mr-1">Feather Icons</Badge>
                       </p> </CardText>
