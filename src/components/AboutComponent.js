@@ -6,7 +6,7 @@ import { Card,
         CardBody,
         CardText,CardSubtitle,
         Row,
-        Col } from 'reactstrap';
+        Col, Badge } from 'reactstrap';
 import * as Icon from 'react-feather';
 import Footer from './FooterComponent';
 import Fade from 'react-reveal/Fade';
@@ -47,6 +47,23 @@ function Experience(){
                 Maintaining an organized workflow using project management tools such as Monday and GitHub.                 
                 </dd>
             </CardText>
+            <hr />
+            <CardText>
+                <p>Technologies/Skills Used: </p>
+                <p>
+                    <Badge color="dark" pill className="mr-1">HTML5</Badge>
+                    <Badge color="dark" pill className="mr-1">CSS</Badge>
+                    <Badge color="dark" pill className="mr-1">JS</Badge>
+                    <Badge color="dark" pill className="mr-1">Django</Badge>
+                    <Badge color="dark" pill className="mr-1">Python</Badge>
+                    <Badge color="dark" pill className="mr-1">PHP</Badge>
+                    <Badge color="dark" pill className="mr-1">JQuery</Badge>
+                    <Badge color="dark" pill className="mr-1">WordPress</Badge>
+                    <Badge color="dark" pill className="mr-1">Photoshop</Badge>
+                    <Badge color="dark" pill className="mr-1">Figma</Badge>
+                    <Badge color="dark" pill className="mr-1">Github</Badge>
+                </p>
+            </CardText>
             </Col>
             </Row>
             </CardBody>
@@ -73,6 +90,23 @@ function Experience(){
                 <dd>
                 By automating many of the company's workflow processes and using automation to enhance customer interaction, I can improve the efficiency of my company's workflow and improve the customer experience.                
                 </dd>
+            </CardText>
+            <hr />
+            <CardText>
+                <p>Technologies/Skills Used: </p>
+                <p>
+                    <Badge color="dark" pill className="mr-1">HTML5</Badge>
+                    <Badge color="dark" pill className="mr-1">CSS</Badge>
+                    <Badge color="dark" pill className="mr-1">JS</Badge>
+                    <Badge color="dark" pill className="mr-1">Python</Badge>
+                    <Badge color="dark" pill className="mr-1">PHP</Badge>
+                    <Badge color="dark" pill className="mr-1">JQuery</Badge>
+                    <Badge color="dark" pill className="mr-1">WordPress</Badge>
+                    <Badge color="dark" pill className="mr-1">Integromat/Make</Badge>
+                    <Badge color="dark" pill className="mr-1">Zapier</Badge>
+                    <Badge color="dark" pill className="mr-1">Github</Badge>
+
+                </p>
             </CardText>
             </Col>
             </Row>
@@ -118,6 +152,17 @@ function Experience(){
                     <dd>Build small modules and added graphics for the company’s  website.</dd>
                     <dd>Created Data analytic reports from the Company’s social media metadata.</dd>
                 </CardText>
+                <CardText>
+                <p>Technologies/Skills Used: </p>
+                <p>
+                    <Badge color="dark" pill className="mr-1">HTML5</Badge>
+                    <Badge color="dark" pill className="mr-1">CSS</Badge>
+                    <Badge color="dark" pill className="mr-1">JS</Badge>
+                    <Badge color="dark" pill className="mr-1">PHP</Badge>
+                    <Badge color="dark" pill className="mr-1">WordPress</Badge>
+                    <Badge color="dark" pill className="mr-1">Photoshop</Badge>
+                </p>
+            </CardText>
             </Col>
         </Row>
         </CardBody>
@@ -138,6 +183,17 @@ function Experience(){
             <CardText>
                 <dd>Built the Company’s internal web application for Monitoring Internet Plans and Accounting information as well as displayed Data analytic reports from the Company’s social media metadata.</dd>
                 <dd>Monitored much of the Company’s Accounting Information Systems for Internet and Cable Plans.</dd>
+            </CardText>
+            <CardText>
+            <p>Technologies/Skills Used: </p>
+                <p>
+                    <Badge color="dark" pill className="mr-1">HTML5</Badge>
+                    <Badge color="dark" pill className="mr-1">CSS</Badge>
+                    <Badge color="dark" pill className="mr-1">JS</Badge>
+                    <Badge color="dark" pill className="mr-1">PHP</Badge>
+                    <Badge color="dark" pill className="mr-1">MySQL</Badge>
+                    <Badge color="dark" pill className="mr-1">Bootstrap</Badge>
+                </p>
             </CardText>
             </Col>
             </Row>
