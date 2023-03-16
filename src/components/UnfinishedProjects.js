@@ -56,25 +56,6 @@ function UnfinishedProjects() {
                 </CardBody>
               </Card>
               </CardDeck>
-
-              <CardDeck>
-              <Card className="neomorph rounded my-md-3 my-4">
-                <CardBody>
-                  <CardTitle>2023 Veteran's Disability Compensation Calculator</CardTitle>
-                  <CardSubtitle>Description:</CardSubtitle><hr />
-                  <CardText>This calculator is based on the VA compensation benefits rate tables. The calculator finds a Serveperson's monthly payment amount on their disability rating and details about their dependent family members. </CardText>
-                  <hr />
-                  <CardText>                    
-                  <p>Technologies Used:</p>
-                      <p>
-                        <Badge color="dark" pill className="mr-1">React</Badge>
-                        <Badge color="dark" pill className="mr-1">Tailwind CSS</Badge>                               
-                        <Badge color="dark" pill className="mr-1">BootStrap</Badge>
-                        <Badge color="dark" pill className="mr-1">Feather Icons</Badge>
-                      </p> </CardText>
-                </CardBody>
-              </Card>
-              </CardDeck>
             </Fade>
         </div>
     )
