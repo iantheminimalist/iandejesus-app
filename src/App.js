@@ -3,7 +3,7 @@ import Main from './components/MainComponent';
 import { BrowserRouter } from 'react-router-dom';
 
 // styles
-import './css/App.scss';
+import './sass/App.scss';
 //import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
