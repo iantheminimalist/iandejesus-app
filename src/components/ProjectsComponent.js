@@ -164,6 +164,65 @@ function Projects() {
         </Fade>
       </Container>
 
+      <Container>
+        <Fade bottom cascade>
+          <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+              <Row>
+                <Col md={1} xs={12} className="text-center my-md-0 my-4">
+                  <Icon.Compass size={40} className="" />
+                </Col>
+                <Col Col md={11} xs={12}>
+                <CardTitle><h5>GTM IT Website (Current Company)</h5></CardTitle>
+                <CardText>This is my company's website portal.</CardText>
+              <Button outline color="secondary" className="mx-2" href="https://gtmit.com"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
+              <hr />
+              <CardText>                    
+              <p>Technologies Used:</p>
+              <p>
+                <Badge color="dark" pill className="mr-1">Javascript</Badge>
+                <Badge color="dark" pill className="mr-1">CSS</Badge>                               
+                <Badge color="dark" pill className="mr-1">HTML</Badge>
+                <Badge color="dark" pill className="mr-1">JQuery</Badge>
+              </p> 
+              </CardText>
+                </Col>
+              </Row>
+            </CardBody>
+          </Card>
+        </Fade>
+      </Container>
+      <Container>
+        <Fade bottom cascade>
+          <Card className="neomorph rounded my-md-3 my-4">
+            <CardBody>
+              <Row>
+                <Col md={1} xs={12} className="text-center my-md-0 my-4">
+                  <Icon.Compass size={40} className="" />
+                </Col>
+                <Col Col md={11} xs={12}>
+                <CardTitle><h5>DBQPro</h5></CardTitle>
+                <CardText>This is my company's website portal.</CardText>
+              <Button outline color="secondary" className="mx-2" href="https://dbqpro.com"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
+              <hr />
+              <CardText>                    
+              <p>Technologies Used:</p>
+              <p>
+                <Badge color="dark" pill className="mr-1">Javascript</Badge>
+                <Badge color="dark" pill className="mr-1">CSS</Badge>                               
+                <Badge color="dark" pill className="mr-1">HTML</Badge>
+                <Badge color="dark" pill className="mr-1">JQuery</Badge>
+                <Badge color="dark" pill className="mr-1">Python</Badge>
+                <Badge color="dark" pill className="mr-1">Django</Badge>                               
+                <Badge color="dark" pill className="mr-1">Node.JS</Badge>
+              </p> 
+              </CardText>
+                </Col>
+              </Row>
+            </CardBody>
+          </Card>
+        </Fade>
+      </Container>
     </div>
 
     <div className="section">
