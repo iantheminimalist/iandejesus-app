@@ -23,8 +23,8 @@ function usePageViews(){
         }
         ReactGA.set({page: window.location});
         ReactGA.pageview(window.location);
-        console.log(location.hash);
-        console.log(window.location);
+        // console.log(location.hash);
+        // console.log(window.location);
       }, [location])
 
 }

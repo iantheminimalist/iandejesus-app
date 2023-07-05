@@ -9,7 +9,10 @@ import { Card,
         Col, Badge } from 'reactstrap';
 import * as Icon from 'react-feather';
 import Footer from './FooterComponent';
-import Fade from 'react-reveal/Fade';
+import {Fade, Reveal} from 'react-reveal';
+import GitCalendarComponent from './GitGraphFetch';
+
+
 
 function Experience(){
     return(
@@ -17,6 +20,7 @@ function Experience(){
         <Fade bottom cascade>
             <Container className="">
                 <h1>My Work Experiences</h1>
+
             </Container>
         </Fade>
 
@@ -41,16 +45,18 @@ function Experience(){
                 Collaborating closely with the team to support web application projects during all phases of delivery.
                 </dd>
                 <dd>
-                Monitoring and troubleshooting website performance and remedying front-end-related issues.                 
+                Monitoring and troubleshooting website performance and remedying front-end-related issues.              
                 </dd>
                 <dd>
-                Maintaining an organized workflow using project management tools such as Monday and GitHub.                 
+                Maintaining an organized workflow using project management tools such as Monday and GitHub.             
                 </dd>
             </CardText>
             <hr />
             <CardText>
-                <p>Technologies/Skills Used: </p>
-                <p>
+                Technologies/Skills Used:
+            </CardText>            
+            <CardText>
+               
                     <Badge color="dark" pill className="mr-1">HTML5</Badge>
                     <Badge color="dark" pill className="mr-1">CSS</Badge>
                     <Badge color="dark" pill className="mr-1">JS</Badge>
@@ -62,7 +68,7 @@ function Experience(){
                     <Badge color="dark" pill className="mr-1">Photoshop</Badge>
                     <Badge color="dark" pill className="mr-1">Figma</Badge>
                     <Badge color="dark" pill className="mr-1">Github</Badge>
-                </p>
+                
             </CardText>
             </Col>
             </Row>
@@ -93,8 +99,9 @@ function Experience(){
             </CardText>
             <hr />
             <CardText>
-                <p>Technologies/Skills Used: </p>
-                <p>
+                Technologies/Skills Used:
+                </CardText>
+                <CardText>
                     <Badge color="dark" pill className="mr-1">HTML5</Badge>
                     <Badge color="dark" pill className="mr-1">CSS</Badge>
                     <Badge color="dark" pill className="mr-1">JS</Badge>
@@ -105,8 +112,6 @@ function Experience(){
                     <Badge color="dark" pill className="mr-1">Integromat/Make</Badge>
                     <Badge color="dark" pill className="mr-1">Zapier</Badge>
                     <Badge color="dark" pill className="mr-1">Github</Badge>
-
-                </p>
             </CardText>
             </Col>
             </Row>
@@ -153,15 +158,15 @@ function Experience(){
                     <dd>Created Data analytic reports from the Company’s social media metadata.</dd>
                 </CardText>
                 <CardText>
-                <p>Technologies/Skills Used: </p>
-                <p>
+                    Technologies/Skills Used:
+                </CardText>
+            <CardText>
                     <Badge color="dark" pill className="mr-1">HTML5</Badge>
                     <Badge color="dark" pill className="mr-1">CSS</Badge>
                     <Badge color="dark" pill className="mr-1">JS</Badge>
                     <Badge color="dark" pill className="mr-1">PHP</Badge>
                     <Badge color="dark" pill className="mr-1">WordPress</Badge>
                     <Badge color="dark" pill className="mr-1">Photoshop</Badge>
-                </p>
             </CardText>
             </Col>
         </Row>
@@ -185,15 +190,15 @@ function Experience(){
                 <dd>Monitored much of the Company’s Accounting Information Systems for Internet and Cable Plans.</dd>
             </CardText>
             <CardText>
-            <p>Technologies/Skills Used: </p>
-                <p>
+            Technologies/Skills Used: 
+            </CardText>
+            <CardText>
                     <Badge color="dark" pill className="mr-1">HTML5</Badge>
                     <Badge color="dark" pill className="mr-1">CSS</Badge>
                     <Badge color="dark" pill className="mr-1">JS</Badge>
                     <Badge color="dark" pill className="mr-1">PHP</Badge>
                     <Badge color="dark" pill className="mr-1">MySQL</Badge>
                     <Badge color="dark" pill className="mr-1">Bootstrap</Badge>
-                </p>
             </CardText>
             </Col>
             </Row>
@@ -262,11 +267,11 @@ function Education(){
         <Card className="neomorph rounded my-md-3 my-4">
             <CardBody>
             <Row>
-            <Col md={1} xs={12} className="text-center my-md-0 my-4"><Icon.Award size={40} className="" /></Col>
+            <Col md={1} xs={12} className="text-center my-md-0 my-4"><Icon.Award size={40}  /></Col>
             <Col md={11} xs={12}>
             <CardTitle><h5> Bachelor of Science in Information Systems  | <span className="font-weight-light">2009 - 2014</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">De La Salle University</h5></CardSubtitle>
-            <CardText>
+            <CardText >
                 Coursework:
                 <dd>Data Structures and Algorithms.</dd>
                 <dd>Managing Software Projects and Methods of Software Development.</dd>
@@ -286,13 +291,26 @@ function Education(){
     </React.Fragment>
     );
 }
+
 function AboutUs() {
     return (
         <div>
         <div className="section">
             <Experience />
         </div>
+        <div className="section text-center">
+        <Reveal>
+        <Fade bottom cascade>
+        <Container ><h1>Personal Contribution</h1></Container>
         
+        <GitCalendarComponent name={'iantheminimalist'}/>
+        <Container><h1>Corporate Contribution</h1></Container>
+        
+        <GitCalendarComponent name={'ianGTM'}/>
+        </Fade>
+        </Reveal>
+
+        </div>
         <div className="section">
             <Education />
         </div>
