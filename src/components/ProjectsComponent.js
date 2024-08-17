@@ -174,7 +174,8 @@ function Projects() {
                 </Col>
                 <Col Col md={11} xs={12}>
                 <CardTitle><h5>GTM IT Website (Current Company)</h5></CardTitle>
-                <CardText>This is my company's website portal.</CardText>
+                <CardText>GTM IT is a company that delivers cutting-edge technology solutions to both government and commercial clients, with a focus on cybersecurity, software development, and IT consulting. Their mission is to provide customized services that address the unique needs of each client, helping them achieve their business objectives efficiently.</CardText>
+                <CardText>During my time at the company, their website was built using HTML, CSS, JavaScript, and jQuery, reflecting a commitment to leveraging modern web technologies for a robust online presence.</CardText>
               <Button outline color="secondary" className="mx-2" href="https://gtmit.com"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
               <hr />
               <CardText>                    
@@ -202,7 +203,7 @@ function Projects() {
                 </Col>
                 <Col Col md={11} xs={12}>
                 <CardTitle><h5>DBQPro</h5></CardTitle>
-                <CardText>This is my company's website portal.</CardText>
+                <CardText>DBQPro™ is a comprehensive software solution built with Django (a high-level Python web framework), HTML, CSS, and JavaScript for frontend design, and Azure for cloud services. jQuery enhances interactivity, while MongoDB serves as the database for storing user data. The software is tailored to simplify the VA disability benefits process for Veterans, guiding them through form completion, document management, rating calculations, and status tracking. It prioritizes privacy and control, making the VA claims process more accessible and efficient.</CardText>
               <Button outline color="secondary" className="mx-2" href="https://dbqpro.com"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
               <hr />
               <CardText>                    
@@ -213,7 +214,8 @@ function Projects() {
                 <Badge color="dark" pill className="mr-1">HTML</Badge>
                 <Badge color="dark" pill className="mr-1">JQuery</Badge>
                 <Badge color="dark" pill className="mr-1">Python</Badge>
-                <Badge color="dark" pill className="mr-1">Django</Badge>                               
+                <Badge color="dark" pill className="mr-1">Django</Badge>
+                <Badge color="dark" pill className="mr-1">Azure</Badge>                                 
                 <Badge color="dark" pill className="mr-1">Node.JS</Badge>
               </p> 
               </CardText>
