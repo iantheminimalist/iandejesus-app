@@ -34,7 +34,7 @@ function Experience(){
             <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
-            <CardTitle><h5> GTM IT | <span className="font-weight-light">Apr 2022 - Present</span></h5></CardTitle>
+            <CardTitle><h5> GTM IT | <span className="font-weight-light">Apr 2022 - March 2024</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">Software Developer</h5></CardSubtitle>
 
             <CardText>
@@ -62,6 +62,7 @@ function Experience(){
                     <Badge color="dark" pill className="mr-1">JS</Badge>
                     <Badge color="dark" pill className="mr-1">Django</Badge>
                     <Badge color="dark" pill className="mr-1">Python</Badge>
+                    <Badge color="dark" pill className="mr-1">Azure</Badge>
                     <Badge color="dark" pill className="mr-1">PHP</Badge>
                     <Badge color="dark" pill className="mr-1">JQuery</Badge>
                     <Badge color="dark" pill className="mr-1">WordPress</Badge>
@@ -149,7 +150,7 @@ function Experience(){
                 <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
-                <CardTitle><h5> Hawaii Health Connector | <span className="font-weight-light">Apr - Dec 2015</span></h5></CardTitle>
+                <CardTitle><h5> Hawaii Health Connector | <span className="font-weight-light">Apr 2015 - Dec 2015</span></h5></CardTitle>
                 <CardSubtitle><h5 className="font-weight-light">Website and Graphics Specialist</h5></CardSubtitle>
                 <CardText>
                     <dd>Created a user-friendly interface for the current website and Monitored website backend data.</dd>
@@ -182,7 +183,7 @@ function Experience(){
             <Icon.Briefcase size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
-            <CardTitle><h5> Royal Cablevision | <span className="font-weight-light">Jan - July 2014</span></h5></CardTitle>
+            <CardTitle><h5> Royal Cablevision | <span className="font-weight-light">Jan 2014 - July 2014</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">Web Developer</h5></CardSubtitle>
 
             <CardText>
@@ -229,7 +230,7 @@ function Education(){
                 <Icon.Award size={40} className="" /> 
             </Col>
             <Col md={11} xs={12}>
-            <CardTitle><h5>Full Stack Web and Mobile Development | <span className="font-weight-light">May - July 2020</span></h5></CardTitle>
+            <CardTitle><h5>Full Stack Web and Mobile Development | <span className="font-weight-light">May 2020 - July 2020</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">Nucamp Coding Bootcamp</h5></CardSubtitle>
             <CardText>
                 Coursework:
@@ -249,7 +250,7 @@ function Education(){
             <Row>
             <Col md={1} xs={12} className="text-center my-md-0 my-4"><Icon.Award size={40} className="" /> </Col>
             <Col md={11} xs={12}>
-            <CardTitle><h5>Front End Web and Mobile Development | <span className="font-weight-light">Jan - May 2020</span></h5></CardTitle>
+            <CardTitle><h5>Front End Web and Mobile Development | <span className="font-weight-light">Jan 2020 - May 2020</span></h5></CardTitle>
             <CardSubtitle><h5 className="font-weight-light">Nucamp Coding Bootcamp</h5></CardSubtitle>
             <CardText>
                 Coursework:

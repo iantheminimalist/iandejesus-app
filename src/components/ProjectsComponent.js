@@ -173,7 +173,7 @@ function Projects() {
                   <Icon.Compass size={40} className="" />
                 </Col>
                 <Col Col md={11} xs={12}>
-                <CardTitle><h5>GTM IT Website (Current Company)</h5></CardTitle>
+                <CardTitle><h5>GTM IT Website</h5></CardTitle>
                 <CardText>GTM IT is a company that delivers cutting-edge technology solutions to both government and commercial clients, with a focus on cybersecurity, software development, and IT consulting. Their mission is to provide customized services that address the unique needs of each client, helping them achieve their business objectives efficiently.</CardText>
                 <CardText>During my time at the company, their website was built using HTML, CSS, JavaScript, and jQuery, reflecting a commitment to leveraging modern web technologies for a robust online presence.</CardText>
               <Button outline color="secondary" className="mx-2" href="https://gtmit.com"  target="_blank" rel="noopener noreferrer"><Icon.Link size={18} /> Preview</Button>
